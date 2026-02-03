@@ -1,4 +1,12 @@
-venv/
+# Ignorar a pasta do ambiente virtual (com o ponto na frente)
+.venv/
+
+# Ignorar arquivos de compilação do Python
 __pycache__/
+*.pyc
+
+# Ignorar a sua chave de segurança (para não vazar)
 api_key.txt
-.env
+
+# Ignorar arquivos de configuração do VS Code (opcional)
+.vscode/
